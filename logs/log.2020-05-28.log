@@ -1,0 +1,66 @@
+[2020-05-28T10:40:43.884] [ERROR] default - TypeError: ctx.body is not a function
+    at /Users/glasssix-ylc/Desktop/test-project/node-koa2/src/app.ts:10:7
+    at Generator.next (<anonymous>)
+    at /Users/glasssix-ylc/Desktop/test-project/node-koa2/src/app.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/glasssix-ylc/Desktop/test-project/node-koa2/src/app.ts:4:12)
+    at router.get (/Users/glasssix-ylc/Desktop/test-project/node-koa2/src/app.ts:8:41)
+    at dispatch (/Users/glasssix-ylc/Desktop/test-project/node-koa2/node_modules/koa-compose/index.js:42:32)
+    at /Users/glasssix-ylc/Desktop/test-project/node-koa2/node_modules/koa-router/lib/router.js:368:16
+    at dispatch (/Users/glasssix-ylc/Desktop/test-project/node-koa2/node_modules/koa-compose/index.js:42:32)
+    at /Users/glasssix-ylc/Desktop/test-project/node-koa2/node_modules/koa-compose/index.js:34:12
+[2020-05-28T10:43:12.256] [ERROR] default - TypeError: ctx.body is not a function
+    at /Users/glasssix-ylc/Desktop/test-project/node-koa2/src/app.ts:10:7
+    at Generator.next (<anonymous>)
+    at /Users/glasssix-ylc/Desktop/test-project/node-koa2/src/app.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/glasssix-ylc/Desktop/test-project/node-koa2/src/app.ts:4:12)
+    at router.get (/Users/glasssix-ylc/Desktop/test-project/node-koa2/src/app.ts:8:41)
+    at dispatch (/Users/glasssix-ylc/Desktop/test-project/node-koa2/node_modules/koa-compose/index.js:42:32)
+    at /Users/glasssix-ylc/Desktop/test-project/node-koa2/node_modules/koa-router/lib/router.js:368:16
+    at dispatch (/Users/glasssix-ylc/Desktop/test-project/node-koa2/node_modules/koa-compose/index.js:42:32)
+    at /Users/glasssix-ylc/Desktop/test-project/node-koa2/node_modules/koa-compose/index.js:34:12
+[2020-05-28T10:43:57.161] [ERROR] default - TypeError: ctx.body is not a function
+    at /Users/glasssix-ylc/Desktop/test-project/node-koa2/src/app.ts:10:7
+    at Generator.next (<anonymous>)
+    at /Users/glasssix-ylc/Desktop/test-project/node-koa2/src/app.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/glasssix-ylc/Desktop/test-project/node-koa2/src/app.ts:4:12)
+    at router.get (/Users/glasssix-ylc/Desktop/test-project/node-koa2/src/app.ts:8:41)
+    at dispatch (/Users/glasssix-ylc/Desktop/test-project/node-koa2/node_modules/koa-compose/index.js:42:32)
+    at /Users/glasssix-ylc/Desktop/test-project/node-koa2/node_modules/koa-router/lib/router.js:368:16
+    at dispatch (/Users/glasssix-ylc/Desktop/test-project/node-koa2/node_modules/koa-compose/index.js:42:32)
+    at /Users/glasssix-ylc/Desktop/test-project/node-koa2/node_modules/koa-compose/index.js:34:12
+[2020-05-28T10:45:06.882] [ERROR] default - TypeError: ctx.body is not a function
+    at /Users/glasssix-ylc/Desktop/test-project/node-koa2/src/app.ts:9:7
+    at Generator.next (<anonymous>)
+    at /Users/glasssix-ylc/Desktop/test-project/node-koa2/src/app.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/glasssix-ylc/Desktop/test-project/node-koa2/src/app.ts:4:12)
+    at router.get (/Users/glasssix-ylc/Desktop/test-project/node-koa2/src/app.ts:8:35)
+    at dispatch (/Users/glasssix-ylc/Desktop/test-project/node-koa2/node_modules/koa-compose/index.js:42:32)
+    at /Users/glasssix-ylc/Desktop/test-project/node-koa2/node_modules/koa-router/lib/router.js:368:16
+    at dispatch (/Users/glasssix-ylc/Desktop/test-project/node-koa2/node_modules/koa-compose/index.js:42:32)
+    at /Users/glasssix-ylc/Desktop/test-project/node-koa2/node_modules/koa-compose/index.js:34:12
+[2020-05-28T10:47:35.997] [ERROR] default - TypeError: ctx.body is not a function
+    at /Users/glasssix-ylc/Desktop/test-project/node-koa2/src/app.ts:9:7
+    at Generator.next (<anonymous>)
+    at /Users/glasssix-ylc/Desktop/test-project/node-koa2/src/app.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/glasssix-ylc/Desktop/test-project/node-koa2/src/app.ts:4:12)
+    at router.get (/Users/glasssix-ylc/Desktop/test-project/node-koa2/src/app.ts:8:35)
+    at dispatch (/Users/glasssix-ylc/Desktop/test-project/node-koa2/node_modules/koa-compose/index.js:42:32)
+    at /Users/glasssix-ylc/Desktop/test-project/node-koa2/node_modules/koa-router/lib/router.js:368:16
+    at dispatch (/Users/glasssix-ylc/Desktop/test-project/node-koa2/node_modules/koa-compose/index.js:42:32)
+    at /Users/glasssix-ylc/Desktop/test-project/node-koa2/node_modules/koa-compose/index.js:34:12
+[2020-05-28T11:06:10.738] [ERROR] default - TypeError: ctx.body is not a function
+    at /Users/glasssix-ylc/Desktop/test-project/node-koa2/src/app.ts:9:7
+    at Generator.next (<anonymous>)
+    at /Users/glasssix-ylc/Desktop/test-project/node-koa2/src/app.ts:8:71
+    at new Promise (<anonymous>)
+    at __awaiter (/Users/glasssix-ylc/Desktop/test-project/node-koa2/src/app.ts:4:12)
+    at router.get (/Users/glasssix-ylc/Desktop/test-project/node-koa2/src/app.ts:8:35)
+    at dispatch (/Users/glasssix-ylc/Desktop/test-project/node-koa2/node_modules/koa-compose/index.js:42:32)
+    at /Users/glasssix-ylc/Desktop/test-project/node-koa2/node_modules/koa-router/lib/router.js:368:16
+    at dispatch (/Users/glasssix-ylc/Desktop/test-project/node-koa2/node_modules/koa-compose/index.js:42:32)
+    at /Users/glasssix-ylc/Desktop/test-project/node-koa2/node_modules/koa-compose/index.js:34:12
