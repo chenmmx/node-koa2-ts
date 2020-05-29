@@ -10,5 +10,6 @@ export const db: ConnectionOptions = {
   logging: true,
   timezone: '+08:00',
   dateStrings: true,
+  synchronize: true,
   entities: ['../**/*.entity.ts']
 };

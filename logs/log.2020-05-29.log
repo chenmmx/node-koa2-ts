@@ -98,3 +98,18 @@
   sqlState: '42S02',
   sqlMessage: 'Table \'test-db.user\' doesn\'t exist' }
 [2020-05-29T10:52:48.820] [INFO] mysql - ROLLBACK
+[2020-05-29T11:19:21.610] [INFO] mysql - All classes found using provided glob pattern "../**/*.entity.ts" : "../node-koa2/src/entities/user/user.entity.ts"
+[2020-05-29T11:22:53.873] [INFO] mysql - All classes found using provided glob pattern "../**/*.entity.ts" : "../node-koa2/src/entities/user/user.entity.ts"
+[2020-05-29T11:25:52.406] [INFO] mysql - All classes found using provided glob pattern "../**/*.entity.ts" : "../node-koa2/src/entities/user/user.entity.ts"
+[2020-05-29T11:25:52.418] [INFO] mysql - START TRANSACTION
+[2020-05-29T11:25:52.428] [INFO] mysql - SELECT DATABASE() AS `db_name`
+[2020-05-29T11:25:52.434] [INFO] mysql - SELECT * FROM `INFORMATION_SCHEMA`.`TABLES` WHERE (`TABLE_SCHEMA` = 'test-db' AND `TABLE_NAME` = 'user')
+[2020-05-29T11:25:52.434] [INFO] mysql - SELECT * FROM `INFORMATION_SCHEMA`.`COLUMNS` WHERE (`TABLE_SCHEMA` = 'test-db' AND `TABLE_NAME` = 'user')
+[2020-05-29T11:25:52.435] [INFO] mysql - SELECT * FROM `INFORMATION_SCHEMA`.`KEY_COLUMN_USAGE` WHERE `CONSTRAINT_NAME` = 'PRIMARY' AND ((`TABLE_SCHEMA` = 'test-db' AND `TABLE_NAME` = 'user'))
+[2020-05-29T11:25:52.435] [INFO] mysql - SELECT `SCHEMA_NAME`, `DEFAULT_CHARACTER_SET_NAME` as `CHARSET`, `DEFAULT_COLLATION_NAME` AS `COLLATION` FROM `INFORMATION_SCHEMA`.`SCHEMATA`
+[2020-05-29T11:25:52.435] [INFO] mysql - SELECT `s`.* FROM `INFORMATION_SCHEMA`.`STATISTICS` `s` LEFT JOIN `INFORMATION_SCHEMA`.`REFERENTIAL_CONSTRAINTS` `rc` ON `s`.`INDEX_NAME` = `rc`.`CONSTRAINT_NAME` WHERE ((`s`.`TABLE_SCHEMA` = 'test-db' AND `s`.`TABLE_NAME` = 'user')) AND `s`.`INDEX_NAME` != 'PRIMARY' AND `rc`.`CONSTRAINT_NAME` IS NULL
+[2020-05-29T11:25:52.436] [INFO] mysql - SELECT `kcu`.`TABLE_SCHEMA`, `kcu`.`TABLE_NAME`, `kcu`.`CONSTRAINT_NAME`, `kcu`.`COLUMN_NAME`, `kcu`.`REFERENCED_TABLE_SCHEMA`, `kcu`.`REFERENCED_TABLE_NAME`, `kcu`.`REFERENCED_COLUMN_NAME`, `rc`.`DELETE_RULE` `ON_DELETE`, `rc`.`UPDATE_RULE` `ON_UPDATE` FROM `INFORMATION_SCHEMA`.`KEY_COLUMN_USAGE` `kcu` INNER JOIN `INFORMATION_SCHEMA`.`REFERENTIAL_CONSTRAINTS` `rc` ON `rc`.`constraint_name` = `kcu`.`constraint_name` WHERE (`kcu`.`TABLE_SCHEMA` = 'test-db' AND `kcu`.`TABLE_NAME` = 'user')
+[2020-05-29T11:25:52.546] [INFO] mysql - SELECT * FROM `INFORMATION_SCHEMA`.`COLUMNS` WHERE `TABLE_SCHEMA` = 'test-db' AND `TABLE_NAME` = 'typeorm_metadata'
+[2020-05-29T11:25:52.551] [INFO] mysql - creating a new table: user
+[2020-05-29T11:25:52.552] [INFO] mysql - CREATE TABLE `user` (`id` int NOT NULL AUTO_INCREMENT, `username` varchar(255) NOT NULL, `password` varchar(255) NOT NULL, `createTime` datetime(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6), `updateTime` datetime(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6), PRIMARY KEY (`id`)) ENGINE=InnoDB
+[2020-05-29T11:25:52.581] [INFO] mysql - COMMIT

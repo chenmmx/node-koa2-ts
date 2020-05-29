@@ -22,8 +22,8 @@ export class UserModel {
     return user;
   }
 
-//   async findByUsername (username: string) {
-//     const user = await this.respository.findOne({ username } , { select, this.select });
-//     return user;
-//   }
+  async findByUsername (username: string) {
+    const user = await this.respository.findOne({ username }, { select: this.select });
+    return user;
+  }
 }
