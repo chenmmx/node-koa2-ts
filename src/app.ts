@@ -14,7 +14,7 @@ router.get('/name', async (ctx, next) => {
 });
 router.get('/age', async (ctx, next) => {
   const user = new User();
-  user.username = '测试';
+  user.username = '123';
   user.password = '123456';
   const result = await new UserModel().create(user);
   console.log(result);
