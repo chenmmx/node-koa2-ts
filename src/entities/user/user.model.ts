@@ -7,7 +7,6 @@ import { Injectable } from 'koa-route-decors';
 export class UserModel {
   private respository: Repository<User>;
   private select: (keyof User)[] = ['id', 'username'];
-
   constructor () {
     this.respository = getRepository(User);
   }
