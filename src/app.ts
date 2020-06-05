@@ -2,6 +2,8 @@ import * as path from 'path';
 import * as Koa from 'koa';
 import * as Router from 'koa-router';
 import { autoRouter } from 'koa-route-decors';
+import * as bodyparser from 'koa-bodyparser';
+import * as compress from 'koa-compress';
 import { errorHander } from './middleware/error.middleware';
 import { connection } from './database/index';
 
@@ -13,6 +15,8 @@ async function start () {
   const router = new Router();
   const subRouter = await autoRouter(path.resolve(__dirname, './'));
   app.use(errorHander)
+  .use(bodyparser())
+  .use(compress())
   .use(subRouter.routes())
   .use(router.routes())
   .use(router.allowedMethods());
