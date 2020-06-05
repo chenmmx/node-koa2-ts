@@ -13,11 +13,21 @@ export class UserController {
     await next();
   }
 
-  // @Get('/find')
-  // async find (ctx: Context, next: any) {
-  //   const name: string = ctx.body.name;
-  //   const data = await this.userService.find(name);
-  //   ctx.body = data;
-  //   await next();
-  // }
+  @Get('/find')
+  async find (ctx: Context, next: any) {
+    console.log(ctx);
+    const name: string = ctx.query.name;
+    const data: any = await this.userService.find(name);
+    console.log(data);
+    ctx.body = data ? {
+      code: 0,
+      msg: '成功',
+      data
+    } : {
+      code: -1,
+      msg: '失败',
+      data: []
+    };
+    await next();
+  }
 }
